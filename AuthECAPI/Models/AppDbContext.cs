@@ -10,5 +10,7 @@ namespace AuthECAPI.Models
         {
 
         }
+
+        public DbSet<AppUser> AppUsers { get; set; }
     }
 }
